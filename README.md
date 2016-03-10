@@ -14,3 +14,11 @@ and calculates for a specific Hochwert/Rechtswert pair monthly averages.
 Script uses all files in input folder (no in script control over start and end-points)
 
 
+### AVHRR_rename.py
+
+*Date: 2015*
+
+Simple renaming script, used specifically for AVHRR files to convert in ENVI format
+
+Basically adds a file extension (.BSQ) to each file and copies it to a new folder. Also,
+the same header file is renamed to match each new BSQ-file and copied to folder as well
